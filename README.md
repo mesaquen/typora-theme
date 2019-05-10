@@ -1,2 +1,2 @@
 # typora-theme
-Personal typora theming
+My personal flavored typora theme

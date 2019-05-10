@@ -1,0 +1,28 @@
+:root {
+   --bg-color:  #ffffff;
+   --monospace: 'liberation mono',monospace;
+}
+html, body {
+    font-family: 'liberation sans',sans-serif;
+    font-size: 16px;
+}
+blockquote {
+    border-left: 4px solid #ddd;
+    padding: 5px 15px; 
+    color: #777;
+}
+
+a {
+    color: #3070ff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.md-fences, code, tt {
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 0.9em;
+}
