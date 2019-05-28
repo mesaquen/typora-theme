@@ -1,19 +1,19 @@
 @font-face {
-	font-family: 'Inter';
-	font-weight: 400;
-	src: url('./mzk/sans.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('./mzk/sans.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-weight: 700;
-	src: url('./mzk/sansbold.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: 700;
+    src: url('./mzk/sansbold.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-weight: 900;
-	src: url('./mzk/sansblack.woff2') format('woff2');
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url('./mzk/sansblack.woff2') format('woff2');
 }
 
 :root {
@@ -22,29 +22,54 @@
 }
 
 html, body {
-	font-family: 'Inter', 'liberation sans', sans-serif;
-	font-size: 16px;
+    font-family: 'Inter', 'liberation sans', sans-serif;
+    font-size: 16px;
 }
 
 blockquote {
-	border-left: 4px solid #ddd;
-	padding: 5px 15px;
-	color: #777;
+    border-left: 4px solid #ddd;
+    padding: 5px 15px;
+    color: #777;
 }
 
 a {
-	color: #3070ff;
+    color: #3070ff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.60em;
+}
+
+h3 {
+    font-size: 1.45em;
+}
+
+h4 {
+    font-size: 1.30em;
+}
+
+h5 {
+    font-size: 1.15em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
 .md-fences, code, tt {
-	border: 1px solid #e4e4e4;
-	border-radius: 3px;
-	padding: 2px 4px;
-	font-size: 0.9em;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    padding: 2px 4px;
+    font-size: 0.9em;
 }
 
 
